@@ -1,0 +1,16 @@
+
+<div class="container">
+
+  <p class="task-title">Your selected task</p>
+
+  <h1><%= @task.title %></h1>
+  <p class="task-details"><%= @task.details %></p>
+
+  <p>
+    <%= link_to "Edit task", edit_path, class: "link" %>
+  </p>
+  <p>
+    <%= link_to "Back to Tasks", tasks_path, class: "link" %>
+  </p>
+
+</div>

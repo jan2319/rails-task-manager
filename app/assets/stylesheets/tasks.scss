@@ -1,0 +1,42 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul {
+  list-style: none;
+}
+
+.icon {
+  font-size: 20px;
+  color: red;
+}
+
+.icon-done {
+  font-size: 20px;
+  color: green;
+}
+
+.task-title {
+  font-size: 24px;
+  color: #2c2f30;
+}
+
+.task-details {
+  font-size: 18px;
+  color: #2c2f30;
+  margin-bottom: 50px;
+}
+
+.link {
+  font-size: 18px;
+  color: #2c2f30;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+.checkbox {
+  width: 20px !important;
+}
